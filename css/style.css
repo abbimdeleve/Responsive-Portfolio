@@ -94,4 +94,13 @@ input, textarea {
     position: absolute;
     z-index: 1;
 
-}im
+}
+@media screen and {
+    max-width: 640px;
+}
+@media screen and {
+    max-width: 768px;
+}
+@media screen and {
+    max-width: 980px;
+}
