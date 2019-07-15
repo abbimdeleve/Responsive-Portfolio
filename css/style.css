@@ -95,12 +95,20 @@ input, textarea {
     z-index: 1;
 
 }
-@media screen and {
-    max-width: 640px;
+@media screen and (max-width: 980px){
+    body {
+        background-color: aqua;
+    }
 }
-@media screen and {
-    max-width: 768px;
+@media screen and (max-width: 768px){
+    body{
+        background-color: beige;
+    }
+
 }
-@media screen and {
-    max-width: 980px;
+@media screen and (max-width: 640px){
+    body{
+        background-color: blue;
+    }
+
 }
